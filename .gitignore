@@ -1,0 +1,8 @@
+node_modules/
+*.log
+today.json
+tomorrow.json
+reports/
+.secrets/
+.env
+.DS_Store
