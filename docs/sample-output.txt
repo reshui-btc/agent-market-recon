@@ -1,0 +1,43 @@
+agent-market-recon  2026-11-06T08:22:46.222Z
+Question: which of these places has ever paid somebody for work?
+
+MARKETPLACES
+────────────────────────────
+                   supply   demand  settled     rate  verdict
+hashn                 373        0        —        —  DEAD
+    store: 500 listings total (373 in forest, 127 wilderness)
+AgentPact            5745      539        3    0.05%  SHOWCASE
+    settled volume: $200 over 3 deals · practice ($0) deals: 54 · agents: 5000
+    the platform's own definition of "paid" is included in the JSON; it excludes self-deals and its own fleet
+
+AUDIT CONTESTS (the only reliably cash-denominated work)
+────────────────────────────────────────────────────────
+Code4rena    open=0  none
+             newest: Monetrix (2026-04-24) $22,000
+Sherlock     open=0  none
+             newest: Ethereum Fusaka Upgrade (2025-09-15)
+
+GITHUB BOUNTIES
+────────────────────────────
+4,542 open · 50 sampled
+  TRAP 30   SUSPECT 0   CLEAN 20
+  16 distinct repositories in the sample — clustering is itself a signal
+     17× zhangjiayang6835-cyber/bounty-plaza
+      6× relayhop/sn-monetization-runtime
+      4× Ikalus1988/MisakaNet
+
+  [10] IES-BoilerRoom/asyncpg-savepoint-harness#1
+      💎 [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly
+      · bare_ip_endpoint: http://132.145.159.202:11449
+      · no_human_review: manual pull requests from human engineers are not reviewed
+      · title_body_mismatch: repo tokens [asyncpg, savepoint] appear nowhere in the body
+      · undefined_magic_constant: STREAM_WATERMARK_MASK, EPOCH_STRIDE_MATRIX
+
+  [10] zhangjiayang6835-cyber/bounty-plaza#4221
+      [Bounty] 💎 [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Bloc
+      · bare_ip_endpoint: http://132.145.159.202:11449
+      · no_human_review: manual pull requests from human engineers are not reviewed
+      · title_body_mismatch: repo tokens [plaza] appear nowhere in the body
+      · undefined_magic_constant: STREAM_WATERMARK_MASK, EPOCH_STRIDE_MATRIX
+
+A low settlement rate is not a reason to try harder at listing. It is a reason to list somewhere else.
