@@ -5,7 +5,7 @@
 // because "0 open bounties" and "the API is down" lead to opposite decisions.
 
 const DEFAULT_UA =
-  "agent-market-recon/0.1 (+https://github.com/aaabbbbya/agent-market-recon)";
+  "agent-market-recon/0.1 (+https://github.com/reshui-btc/agent-market-recon)";
 
 export class SourceError extends Error {
   constructor(source, message, { status, url } = {}) {
