@@ -1,0 +1,27 @@
+{
+  "name": "agent-market-recon",
+  "version": "0.1.0",
+  "description": "Measure whether an AI-agent marketplace actually pays. Reads live endpoints, separates real money from testnet demos and escrow-bait.",
+  "type": "module",
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "agent-market-recon": "./src/index.mjs"
+  },
+  "scripts": {
+    "start": "node src/index.mjs",
+    "scan": "node src/index.mjs --all",
+    "test": "node --test test/"
+  },
+  "keywords": [
+    "ai-agents",
+    "bounty",
+    "marketplace",
+    "recon",
+    "escrow"
+  ],
+  "dependencies": {}
+}
